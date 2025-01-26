@@ -3,197 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bettercast - Tailwind CSS Website</title>
+    <title>Best Circle AI</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for hero background */
+        .hero-bg {
+            background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%); /* Light blue gradient */
+        }
+    </style>
 </head>
-<body class="font-sans bg-gray-50">
+<body class="font-sans bg-gray-50 text-gray-900">
 
     <!-- Hero Section -->
-    <header class="bg-white py-10">
+    <header class="hero-bg py-24">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32 text-center">
-            <img src="https://placehold.co/200x50?text=Bettercast&font=bold" alt="Bettercast Logo" class="mx-auto mb-6">
-            <h1 class="text-2xl md:text-3xl lg:text-4xl font-light text-gray-800 mb-4">Easily understandable predictions so you can make <br> <span class="font-semibold">better business decisions</span></h1>
-            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full inline-block">Explore Now</a>
+            <img src="https://placehold.co/200x50?text=Best+Circle+AI&font=extrabold&background=%23ffffff&textColor=%23374151" alt="Best Circle AI Logo" class="mx-auto mb-8" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-light text-gray-800 mb-6 leading-tight">Unlock Clear Insights, <br> Drive Smarter Decisions with <span class="font-semibold text-blue-700">AI-Powered Predictions</span></h1>
+            <p class="text-lg text-gray-600 mb-8 max-w-xl mx-auto">Harness the power of understandable AI to transform your business strategy. Get actionable predictions tailored to your needs and make confident, data-driven decisions.</p>
+            <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full inline-block shadow-md hover:shadow-lg transition duration-300">Get Started Today</a>
         </div>
     </header>
 
     <!-- About Us Section -->
-    <section class="py-16">
+    <section class="py-20 bg-white">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">About Us</h2>
-            <div class="flex flex-col md:flex-row items-center gap-8">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">About Us</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24">
                 <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x400?text=About+Us+Image" alt="About Us Image" class="rounded-lg shadow-md">
+                    <img src="https://placehold.co/600x400?text=AI+Insights&font=bold&background=%23e0e0e0&textColor=%23757575" alt="About Us Image" class="rounded-xl shadow-lg">
                 </div>
                 <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">What We Do</h3>
-                    <p class="text-gray-700">Bettercast AI provides an easily understandable set of predictions on a tailored view of your operation so you can make better decisions.</p>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Our Mission: Clarity Through AI</h3>
+                    <p class="text-gray-700 leading-relaxed mb-8">Best Circle AI is dedicated to making the power of artificial intelligence accessible and understandable for every business. We believe that complex data should lead to simple, actionable insights. Our platform provides clear, tailored predictions, empowering you to make strategic decisions with confidence.</p>
+                    <ul class="list-disc list-inside text-gray-700 leading-relaxed">
+                        <li class="mb-2">Easily Understandable Predictions</li>
+                        <li class="mb-2">Tailored to Your Operations</li>
+                        <li class="mb-2">Actionable Insights for Better Decisions</li>
+                        <li>Driving Tangible Business Results</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Industries Served Section -->
-    <section class="py-16 bg-gray-100">
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Industries Served</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Food & Beverage -->
-                <div class="text-center">
-                    <div class="rounded-full overflow-hidden shadow-md">
-                        <img src="https://placehold.co/300x300?text=Food+%26+Beverage" alt="Food & Beverage" class="w-full h-full object-cover">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">Industries We Serve</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Industry Card Template - Reusable -->
+                <div class="industry-card">
+                    <div class="rounded-full overflow-hidden shadow-md mb-6">
+                        <img src="https://placehold.co/300x300?text=Food+%26+Bev&font=bold&background=%23d4d4d4&textColor=%236b7280" alt="Food & Beverage" class="w-full h-full object-cover transition-transform hover:scale-105">
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Food & Beverage</h3>
-                    <p class="text-gray-600 text-sm">Food Manufacturers and Beverage Manufacturers</p>
-                    <a href="#" class="inline-block mt-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full text-sm">See Use Cases</a>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Food & Beverage</h3>
+                    <p class="text-gray-600 text-sm mb-4">Manufacturers & Processors</p>
+                    <a href="#" class="inline-block px-4 py-2 text-sm font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 rounded-full transition-colors duration-200 border border-blue-200">Explore Use Cases</a>
                 </div>
-                <!-- Utilities -->
-                <div class="text-center">
-                    <div class="rounded-full overflow-hidden shadow-md">
-                        <img src="https://placehold.co/300x300?text=Utilities" alt="Utilities" class="w-full h-full object-cover">
+                <div class="industry-card">
+                    <div class="rounded-full overflow-hidden shadow-md mb-6">
+                        <img src="https://placehold.co/300x300?text=Utilities&font=bold&background=%23d4d4d4&textColor=%236b7280" alt="Utilities" class="w-full h-full object-cover transition-transform hover:scale-105">
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Utilities</h3>
-                    <p class="text-gray-600 text-sm">Power Utilities, Water Utilities, Transportation</p>
-                    <a href="#" class="inline-block mt-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full text-sm">See Use Cases</a>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Utilities</h3>
+                    <p class="text-gray-600 text-sm mb-4">Power, Water, Transportation</p>
+                    <a href="#" class="inline-block px-4 py-2 text-sm font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 rounded-full transition-colors duration-200 border border-blue-200">Explore Use Cases</a>
                 </div>
-                <!-- Manufacturing -->
-                <div class="text-center">
-                    <div class="rounded-full overflow-hidden shadow-md">
-                        <img src="https://placehold.co/300x300?text=Manufacturing" alt="Manufacturing" class="w-full h-full object-cover">
+                <div class="industry-card">
+                    <div class="rounded-full overflow-hidden shadow-md mb-6">
+                        <img src="https://placehold.co/300x300?text=Manufacturing&font=bold&background=%23d4d4d4&textColor=%236b7280" alt="Manufacturing" class="w-full h-full object-cover transition-transform hover:scale-105">
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Manufacturing</h3>
-                    <p class="text-gray-600 text-sm">Consumer Good Manufacturers</p>
-                    <a href="#" class="inline-block mt-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full text-sm">See Use Cases</a>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Manufacturing</h3>
+                    <p class="text-gray-600 text-sm mb-4">Consumer Goods & Industrials</p>
+                    <a href="#" class="inline-block px-4 py-2 text-sm font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 rounded-full transition-colors duration-200 border border-blue-200">Explore Use Cases</a>
                 </div>
-                <!-- Public Sector -->
-                <div class="text-center">
-                    <div class="rounded-full overflow-hidden shadow-md">
-                        <img src="https://placehold.co/300x300?text=Public+Sector" alt="Public Sector" class="w-full h-full object-cover">
+                <div class="industry-card">
+                    <div class="rounded-full overflow-hidden shadow-md mb-6">
+                        <img src="https://placehold.co/300x300?text=Public+Sector&font=bold&background=%23d4d4d4&textColor=%236b7280" alt="Public Sector" class="w-full h-full object-cover transition-transform hover:scale-105">
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Public Sector</h3>
-                    <p class="text-gray-600 text-sm">City & State Governments</p>
-                    <a href="#" class="inline-block mt-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full text-sm">See Use Cases</a>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Public Sector</h3>
+                    <p class="text-gray-600 text-sm mb-4">City, State & Government</p>
+                    <a href="#" class="inline-block px-4 py-2 text-sm font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 rounded-full transition-colors duration-200 border border-blue-200">Explore Use Cases</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Food & Beverage Use Cases -->
-    <section class="py-16">
+    <section class="py-20 bg-white">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Food & Beverage Use Cases</h2>
-            <div class="flex flex-col md:flex-row items-center gap-8 mb-16">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">Food & Beverage Use Cases</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24 mb-24">
                 <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Product Quality Management</h3>
-                    <p class="text-gray-700 mb-4">Beverage Manufacturers can predict the chemical quality of its products hours to days in advance. This way, they can intervene before products spoil during the fermenting process. Reduce the amount of product thrown away over the course of a year with our beverage solutions.</p>
-                    <p class="text-gray-700">Food Manufacturers can predict sales volume to optimize shipping. They can predict equipment problems to increase the reliability of their plant. They can also predict the quality of raw materials they are about to purchase so they can make better purchasing decisions.</p>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Product Quality Management</h3>
+                    <p class="text-gray-700 leading-relaxed mb-8">Predict product quality in advance and intervene before spoilage. Reduce waste and maintain high standards with AI-powered quality predictions for beverage and food manufacturing.</p>
+                    <p class="text-gray-700 leading-relaxed">Optimize shipping, predict equipment issues, and ensure raw material quality. Enhance plant reliability and purchasing decisions with our advanced predictive solutions.</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x400?text=Product+Quality+Image" alt="Product Quality Image" class="rounded-lg shadow-md">
+                    <img src="https://placehold.co/600x400?text=Quality+Control&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Product Quality Image" class="rounded-xl shadow-lg">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Utilities Use Cases -->
-    <section class="py-16 bg-gray-100">
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Utilities Use Cases</h2>
-            <div class="flex flex-col md:flex-row items-center gap-8 mb-16">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">Utilities Use Cases</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24 mb-24">
                 <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Electricity Demand Management</h3>
-                    <p class="text-gray-700">Electric Power Utilities can predict power demand, even in areas without advanced metering installed. This way they can optimize power purchasing and distribution while minimizing power shortages over the course of a year.</p>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Electricity Demand Management</h3>
+                    <p class="text-gray-700 leading-relaxed">Accurately predict power demand, even without advanced metering. Optimize power purchasing and distribution to minimize shortages and ensure reliable energy supply throughout the year.</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x400?text=Electricity+Demand+Image" alt="Electricity Demand Image" class="rounded-lg shadow-md">
+                    <img src="https://placehold.co/600x400?text=Energy+Demand&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Electricity Demand Image" class="rounded-xl shadow-lg">
                 </div>
             </div>
         </div>
     </section>
 
      <!-- Manufacturing Use Cases -->
-     <section class="py-16">
+     <section class="py-20 bg-white">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Manufacturing Use Cases</h2>
-            <div class="flex flex-col md:flex-row items-center gap-8 mb-16">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">Manufacturing Use Cases</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24 mb-24">
                 <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Minimize Waste in Your Supply Chain</h3>
-                    <p class="text-gray-700">Manufacturers can predict sales volume to optimize how to distribute products, what product mix to manufacture, and how much raw material inventory to keep on hand. This can reduce costs related to shipping and procurement. This can also increase revenue by capitalizing on unforeseen sales opportunities.</p>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Minimize Supply Chain Waste</h3>
+                    <p class="text-gray-700 leading-relaxed">Optimize product distribution, manufacturing mix, and raw material inventory with sales volume predictions. Reduce shipping and procurement costs, and capitalize on unexpected sales opportunities.</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x400?text=Supply+Chain+Image" alt="Supply Chain Image" class="rounded-lg shadow-md">
+                    <img src="https://placehold.co/600x400?text=Supply+Chain+Optimization&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Supply Chain Image" class="rounded-xl shadow-lg">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Public Sector Use Cases -->
-    <section class="py-16 bg-gray-100">
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Public Sector Use Cases</h2>
-            <div class="flex flex-col md:flex-row items-center gap-8 mb-16">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">Public Sector Use Cases</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24 mb-24">
                 <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Resource Planning and Emergency Response</h3>
-                    <p class="text-gray-700 mb-4">Governments can quickly see patterns in terms of what resources are lacking in certain neighborhoods. This enables city and state leaders to optimize resource planning to improve the overall quality of life in their regions.</p>
-                    <p class="text-gray-700">Government agencies that oversee transportation, power & water, and emergency response can predict adverse weather affects on their operations several hours or days in advance. This helps them initiate timely contingency plans before it is too late. Ensure that your front line staff have enough time to intervene with the help of our public sector solutions.</p>
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Resource Planning & Emergency Response</h3>
+                    <p class="text-gray-700 leading-relaxed mb-8">Identify resource gaps in neighborhoods and optimize resource allocation for improved quality of life. Enable city and state leaders to make proactive decisions for their communities.</p>
+                    <p class="text-gray-700 leading-relaxed">Predict adverse weather impacts on transportation, power, and water systems. Initiate timely emergency plans and ensure frontline staff are prepared to respond effectively.</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x400?text=Emergency+Response+Image" alt="Emergency Response Image" class="rounded-lg shadow-md">
+                    <img src="https://placehold.co/600x400?text=Emergency+Response+Planning&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Emergency Response Image" class="rounded-xl shadow-lg">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Leadership Team Section -->
-    <section class="py-16">
+    <section class="py-20 bg-white">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Leadership Team</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Team Member 1 -->
-                <div class="text-center">
-                    <div class="rounded-lg overflow-hidden shadow-md">
-                        <img src="https://placehold.co/400x400?text=Bryant+Baek" alt="Bryant Baek" class="w-full h-full object-cover">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">Leadership Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Team Member Template - Reusable -->
+                <div class="team-member">
+                    <div class="rounded-xl overflow-hidden shadow-md mb-6">
+                        <img src="https://placehold.co/400x400?text=Bryant+B&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Bryant Baek" class="w-full h-full object-cover transition-transform hover:scale-105">
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Bryant Baek - CEO and Co-Founder</h3>
-                    <p class="text-gray-600 text-sm mt-2">Bryant has led the development and deployment of AI products for over eight years at companies such as BP. He has led technology initiatives for over 20 years across many industries including energy, manufacturing, healthcare, and government.</p>
-                    <p class="text-gray-600 text-sm mt-2">Bryant holds a bachelor's in electrical engineering from Tufts University and an MBA from Northwestern University's Kellogg School of Management.</p>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Bryant Baek</h3>
+                    <h4 class="text-md font-medium text-gray-600 mb-4">CEO and Co-Founder</h4>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-4">AI product development leader with 8+ years experience at companies like BP. Led tech initiatives across diverse industries for 20+ years.</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Tufts EE, Northwestern Kellogg MBA.</p>
                 </div>
-                <!-- Team Member 2 -->
-                <div class="text-center">
-                    <div class="rounded-lg overflow-hidden shadow-md">
-                        <img src="https://placehold.co/400x400?text=Zilu+Li" alt="Zilu Li" class="w-full h-full object-cover">
+                <div class="team-member">
+                    <div class="rounded-xl overflow-hidden shadow-md mb-6">
+                        <img src="https://placehold.co/400x400?text=Zilu+L&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Zilu Li" class="w-full h-full object-cover transition-transform hover:scale-105">
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Zilu Li - CTO and Co-Founder</h3>
-                    <p class="text-gray-600 text-sm mt-2">Zilu is a machine learning engineer with a strong track record of building AI-driven solutions for Beyond Limits, AT&T, and IBM. He has developed multiple ML products from 0 to 1, leading teams to deliver scalable solutions for energy, transportation, and healthcare enterprise clients.</p>
-                    <p class="text-gray-600 text-sm mt-2">Zilu holds a Master's in Applied Data Science from the University of Southern California.</p>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Zilu Li</h3>
+                    <h4 class="text-md font-medium text-gray-600 mb-4">CTO and Co-Founder</h4>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-4">Machine learning engineer with a strong record building AI solutions for Beyond Limits, AT&T, and IBM.</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">USC Master's in Applied Data Science.</p>
                 </div>
-                <!-- Team Member 3 -->
-                <div class="text-center">
-                    <div class="rounded-lg overflow-hidden shadow-md">
-                        <img src="https://placehold.co/400x400?text=Mike+Krause" alt="Mike Krause" class="w-full h-full object-cover">
+                <div class="team-member">
+                    <div class="rounded-xl overflow-hidden shadow-md mb-6">
+                        <img src="https://placehold.co/400x400?text=Mike+K&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Mike Krause" class="w-full h-full object-cover transition-transform hover:scale-105">
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mt-4">Mike Krause - AI Advisor</h3>
-                    <p class="text-gray-600 text-sm mt-2">Mike is a distinguished AI leader with over 15 years of experience developing solutions for Fortune 500 energy and industrial clients. As Principal at Route 5 Ventures, he guides companies in adopting transformative AI technologies. Previously, he co-founded a mobile sensing company and led the development of the world's first hybrid AI p</p>
-                    <a href="#" class="text-blue-500 text-sm inline-block mt-2">+ Show More</a>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Mike Krause</h3>
+                    <h4 class="text-md font-medium text-gray-600 mb-4">AI Advisor</h4>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-4">Distinguished AI leader with 15+ years developing solutions for Fortune 500 clients. Principal at Route 5 Ventures.</p>
+                    <a href="#" class="text-blue-500 text-sm inline-block mt-2 hover:underline">+ Show More</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Us Section -->
-    <section class="py-16 bg-gray-100">
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32">
-            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Contact Us</h2>
-            <div class="md:flex md:justify-between items-start">
+            <h2 class="text-3xl font-semibold text-center mb-16 section-title">Contact Us</h2>
+            <div class="md:flex md:justify-between items-start gap-16">
                 <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Reach out to us for a product demo</h3>
-                    <p class="text-gray-700 mb-6">Click on the button below and send us an email to request a demo</p>
-                    <p class="text-gray-600 mb-2">Bettercast</p>
-                    <p class="text-gray-600 mb-2">Los Angeles, California, United States</p>
-                    <div class="mb-4">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Request a Product Demo</h3>
+                    <p class="text-gray-700 leading-relaxed mb-8">Ready to see Best Circle AI in action? Click the button below to send us an email and request a personalized product demonstration. Let's discuss how we can help your business thrive with AI-powered predictions.</p>
+                    <div class="mb-8">
+                        <p class="text-gray-600 mb-2 font-medium">Best Circle AI</p>
+                        <p class="text-gray-600 mb-2">Los Angeles, CA, USA</p>
+                    </div>
+                    <div class="mb-8">
                         <h4 class="text-lg font-semibold text-gray-800 mb-2">Hours</h4>
                         <div class="relative inline-block">
-                            <button type="button" class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" id="options-menu-button" aria-expanded="false" aria-haspopup="true">
+                            <button type="button" class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" id="options-menu-button" aria-expanded="false" aria-haspopup="true">
                               Today <span class="font-semibold">Closed</span>
                               <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -201,20 +214,20 @@
                             </button>
                           </div>
                     </div>
-                    <a href="#" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full inline-block">Drop us a line!</a>
+                    <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full inline-block shadow-md hover:shadow-lg transition duration-300">Request a Demo</a>
                 </div>
                 <div class="md:w-1/2 md:text-right hidden md:block">
-                    <img src="https://placehold.co/400x300?text=Contact+Image" alt="Contact Image" class="rounded-lg shadow-md inline-block">
+                    <img src="https://placehold.co/600x400?text=Contact+Us&font=bold&background=%23e0e0e0&textColor=%23757575" alt="Contact Image" class="rounded-xl shadow-lg inline-block">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-gray-800 text-white py-4">
+    <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-32 flex justify-between items-center">
-            <p class="text-sm">© 2024 Better Cast - All Rights Reserved.</p>
-            <a href="https://godaddy.com" target="_blank" class="text-sm hover:text-gray-300 flex items-center">
+            <p class="text-sm text-gray-300">© 2024 Best Circle AI - All Rights Reserved.</p>
+            <a href="https://godaddy.com" target="_blank" class="text-sm hover:text-gray-100 flex items-center transition-colors duration-200">
                 Powered by <img src="https://placehold.co/80x20?text=GoDaddy&font=bold&bg=gray-800&fc=white" alt="GoDaddy" class="ml-2">
             </a>
         </div>
